@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   get 'pages/home'
 
-  get 'places-to-sell-giftcards-nyc-queens' => 'pages#about', as: :about
+  get 'places-to-sell-giftcards-nyc' => 'pages#about', as: :about
 
   get 'sell-giftcards-in-brooklyn' => 'pages#brooklyn', as: :brooklyn
 
