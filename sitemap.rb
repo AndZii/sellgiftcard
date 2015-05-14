@@ -4,16 +4,16 @@ require 'sitemap_generator'
 SitemapGenerator::Sitemap.default_host = 'http://sellhandbag.nyc'
 SitemapGenerator::Sitemap.create do
   add '/', :changefreq => 'daily', :priority => 0.9
-  add '/sell-your-giftcards-nyc'
-  add '/places-to-sell-giftcards-nyc-queens'
-  add '/sell-giftcards-in-brooklyn'
-  add '/sell-giftcards-in-manhattan'
-  add '/sell-giftcards-in-queens'
-  add '/sell-giftcards-in-staten-island'
-  add '/sell-giftcards-in-bronx'
-  add '/sell-giftcards-in-long-island'
-  add '/sell-giftcards-in-connecticute'
-  add '/sell-giftcards-in-new_jersey'
+  add '/sell-your-gift-cards-nyc'
+  add '/places-to-sell-gift-cards-nyc-queens'
+  add '/sell-gift-cards-in-brooklyn'
+  add '/sell-gift-cards-in-manhattan'
+  add '/sell-gift-cards-in-queens'
+  add '/sell-gift-cards-in-staten-island'
+  add '/sell-gift-cards-in-bronx'
+  add '/sell-gift-cards-in-long-island'
+  add '/sell-gift-cards-in-connecticute'
+  add '/sell-gift-cards-in-new_jersey'
 
 
 end

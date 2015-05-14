@@ -1,26 +1,26 @@
 Rails.application.routes.draw do
 
-  get 'sell-your-giftcards-nyc' => 'pages#sell', as: :sell
+  get 'sell-your-gift-cards-nyc' => 'pages#sell', as: :sell
 
   get 'pages/home'
 
-  get 'places-to-sell-giftcards-nyc' => 'pages#about', as: :about
+  get 'places-to-sell-gift-cards-nyc' => 'pages#about', as: :about
 
-  get 'sell-giftcards-in-brooklyn' => 'pages#brooklyn', as: :brooklyn
+  get 'sell-gift-cards-in-brooklyn' => 'pages#brooklyn', as: :brooklyn
 
-  get 'sell-giftcards-in-manhattan' => 'pages#manhattan', as: :manhattan
+  get 'sell-gift-cards-in-manhattan' => 'pages#manhattan', as: :manhattan
 
-  get 'sell-giftcards-in-queens' => 'pages#queens', as: :queens
+  get 'sell-gift-cards-in-queens' => 'pages#queens', as: :queens
 
-  get 'sell-giftcards-in-staten-island' => 'pages#staten_island', as: :staten_island
+  get 'sell-gift-cards-in-staten-island' => 'pages#staten_island', as: :staten_island
 
-  get 'sell-giftcards-in-bronx' => 'pages#bronx', as: :bronx
+  get 'sell-gift-cards-in-bronx' => 'pages#bronx', as: :bronx
 
-  get 'sell-giftcards-in-long-island' => 'pages#long_island', as: :long_island
+  get 'sell-gift-cards-in-long-island' => 'pages#long_island', as: :long_island
 
-  get 'sell-giftcards-in-connecticute' => 'pages#connecticute', as: :connecticute
+  get 'sell-gift-cards-in-connecticute' => 'pages#connecticute', as: :connecticute
 
-  get 'sell-giftcards-in-new_jersey' => 'pages#new_jersey', as: :new_jersey
+  get 'sell-gift-cards-in-new_jersey' => 'pages#new_jersey', as: :new_jersey
 
    root 'pages#home'
 
