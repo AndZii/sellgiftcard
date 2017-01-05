@@ -5820,3 +5820,163 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-05-15 12:59:33
 
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-05-15 12:59:33 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-05 00:57:06 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-01-05 00:57:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-01-05 00:57:06 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-05 01:00:54 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (Missing partial shared/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/andrey/projects/sellgiftcard/app/views"
+):
+    16:   <%= yield %>
+    17: </div>
+    18: <div class="container">
+    19: <%= render 'shared/footer' %>
+    20: </div>
+    21: 
+    22: <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___545811582918967307_70326938473000'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-01-05 01:01:22 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-05 01:01:23 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.haml (2.9ms)
+Completed 200 OK in 54ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-05 01:02:48 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-01-05 01:02:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-01-05 01:02:48 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-01-05 01:02:48 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-05 01:03:47 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-01-05 01:03:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-01-05 01:03:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-01-05 01:03:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-01-05 01:03:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-05 01:04:35 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (2.8ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-01-05 01:04:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-01-05 01:04:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-01-05 01:04:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-01-05 01:04:35 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-05 01:07:12 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-01-05 01:07:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-01-05 01:07:12 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-05 01:07:21 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-01-05 01:07:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-01-05 01:07:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-01-05 01:07:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-01-05 01:07:21 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-05 01:07:38 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 43ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-01-05 01:07:38 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-01-05 01:07:38 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-01-05 01:07:38 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-01-05 01:07:38 -0500
