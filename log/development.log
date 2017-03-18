@@ -5980,3 +5980,475 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-01-05 01:07:38
 
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-01-05 01:07:38 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:01:22 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (31.6ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_footer.html.haml (3.7ms)
+Completed 200 OK in 74ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/popover-05732afcfe8b7487e51d82ce3f8a0c14.js?body=1" for 127.0.0.1 at 2017-03-17 23:01:23 -0400
+
+
+Started GET "/assets/bootstrap/modal-8d7b95e2d768d4ece3faa24139930b0b.js?body=1" for 127.0.0.1 at 2017-03-17 23:01:23 -0400
+
+
+Started GET "/assets/jquery-06e29fe56831942b4f21ce49e45e1429.js?body=1" for 127.0.0.1 at 2017-03-17 23:01:23 -0400
+
+
+Started GET "/assets/bootstrap/dropdown-a2d3f333085e0bc153c5d488f9c25beb.js?body=1" for 127.0.0.1 at 2017-03-17 23:01:23 -0400
+
+
+Started GET "/assets/admin-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for 127.0.0.1 at 2017-03-17 23:01:23 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/admin-2be930bcbfd3c3e00190e2193dda5c7c.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.2ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.1ms)
+
+
+Started GET "/assets/turbolinks-ec43e9d221200f76649ada6a93a32e1b.js?body=1" for 127.0.0.1 at 2017-03-17 23:01:23 -0400
+
+
+Started GET "/assets/bootstrap/affix-47fdb29aafe4a822de223cafa771308d.js?body=1" for 127.0.0.1 at 2017-03-17 23:01:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:01:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:01:24 -0400
+
+
+Started GET "/assets/admin-0bc27e2168727cafa1252f703137df60.js?body=1" for 127.0.0.1 at 2017-03-17 23:01:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/admin-0bc27e2168727cafa1252f703137df60.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.3ms)
+
+
+Started GET "/assets/bootstrap/button-a2a5158d99c02fae2b04bc27d371a4b6.js?body=1" for 127.0.0.1 at 2017-03-17 23:01:24 -0400
+
+
+Started GET "/assets/bootstrap/tooltip-f84ca665f20377fe06f80929f5951ab6.js?body=1" for 127.0.0.1 at 2017-03-17 23:01:24 -0400
+
+
+Started GET "/assets/bootstrap/transition-9486a84e28a255d97b73f24291099503.js?body=1" for 127.0.0.1 at 2017-03-17 23:01:24 -0400
+
+
+Started GET "/assets/bootstrap-sprockets-8424ed52c356487c7b529345da7d256c.js?body=1" for 127.0.0.1 at 2017-03-17 23:01:24 -0400
+
+
+Started GET "/assets/jquery_ujs-b58be681f2702254e79c46cdcbbc9616.js?body=1" for 127.0.0.1 at 2017-03-17 23:01:24 -0400
+
+
+Started GET "/assets/bootstrap/tab-b0e0085ddbe601df70783e3b00a44a66.js?body=1" for 127.0.0.1 at 2017-03-17 23:01:24 -0400
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-03-17 23:01:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.9ms)
+
+
+Started GET "/apple-touch-icon-precomposed.png" for 127.0.0.1 at 2017-03-17 23:01:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.3ms)
+
+
+Started GET "/apple-touch-icon.png" for 127.0.0.1 at 2017-03-17 23:01:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:05:06 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (3.2ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:05:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:05:06 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:05:34 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (3.1ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:05:34 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:05:34 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:06:41 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (32.4ms)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:06:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:06:42 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:08:13 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:08:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:08:13 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:09:03 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:09:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:09:03 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:11:29 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_footer.html.haml (3.6ms)
+Completed 200 OK in 30ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:11:29 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:11:29 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:12:59 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:12:59 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:12:59 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:13:51 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 44ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:13:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:13:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:13:54 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:13:54 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:13:54 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:14:41 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 79ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:14:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:14:41 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:15:37 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 47ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:15:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:15:37 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:16:31 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 74ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:16:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:16:31 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:16:42 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:16:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:16:42 -0400
+
+
+Started GET "/places-to-sell-gift-cards-nyc" for 127.0.0.1 at 2017-03-17 23:16:52 -0400
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:16:52 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:16:52 -0400
+
+
+Started GET "/places-to-sell-gift-cards-nyc" for 127.0.0.1 at 2017-03-17 23:18:03 -0400
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:18:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:18:03 -0400
+
+
+Started GET "/places-to-sell-gift-cards-nyc" for 127.0.0.1 at 2017-03-17 23:18:15 -0400
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (1.2ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 74ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:18:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:18:15 -0400
+
+
+Started GET "/sell-your-gift-cards-nyc" for 127.0.0.1 at 2017-03-17 23:18:26 -0400
+Processing by PagesController#sell as HTML
+  Rendered pages/sell.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:18:26 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:18:26 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-17 23:18:27 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-03-17 23:18:27 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-03-17 23:18:27 -0400

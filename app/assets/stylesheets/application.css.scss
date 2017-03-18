@@ -348,6 +348,8 @@ h2{
   margin-top: 25px;
 }
 
+
+
 .footer-distributed .footer-icons a{
   display: inline-block;
   width: 35px;
@@ -386,5 +388,70 @@ h2{
     margin-left: 0;
   }
 
+    #phone-button-wrapper {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 32px;
+    right: 10px;
+    background: #FF7043;
+    border-radius: 100px;
+    z-index: 100;
+    line-height: 70px;
+    text-align: center;
+    color: white !important;
+}
+
+.call-now-sign {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding-right: 15px;
+    background: #FF7043;
+    padding-left: 15px;
+    border-radius: 100px 0  0 0;
+    opacity: 1;
+    z-index: 100;
+    font-size: 120%;
+    color: white !important;
+}
+
+.mobile-call {
+    height: 60px;
+    background: #ececec;
+    border-radius: 10px;
+    color: #2f3136;
+    font-size: 200%;
+    line-height: 60px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+ 
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 1px, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, -2px, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 4px, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, -4px, 0);
+  }
+}
+    
+    #phone-button-wrapper {
+  animation: shake 1.82s cubic-bezier(.36,.07,.19,.97) both;
+  animation-iteration-count:infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+    
 }
 

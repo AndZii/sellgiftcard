@@ -1,0 +1,396 @@
+/* line 2, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+body, html {
+  font-family: 'PT sans', Arial;
+}
+
+/* line 8, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+h1 {
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 170%;
+  padding: 10px 0;
+  margin: 0 15px;
+  text-align: center;
+}
+
+/* line 17, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+h2 {
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 140%;
+  padding: 10px 0;
+}
+
+/* line 26, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.logo-part {
+  color: #2f3136;
+}
+
+/* line 30, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.logo {
+  font-weight: bold;
+  font-size: 200%;
+}
+
+/* line 37, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.underline-a {
+  font-weight: bold;
+  font-size: 300%;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 47, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+  .underline-a {
+    font-weight: bold;
+    font-size: 220%;
+  }
+
+  /* line 54, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+  nav .underline-a {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+  }
+
+  /* line 61, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+  nav .underline-a:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+
+  /* line 70, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #2f3136;
+  }
+
+  /* line 74, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+  nav .underline-a:hover:after {
+    width: 100%;
+    background: #2f3136;
+  }
+
+  /* line 79, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+  .navbar {
+    height: 150px;
+    background: url("/big.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+}
+/* line 92, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.mobile-call {
+  height: 60px;
+  background: #ececec;
+  border-radius: 10px;
+  color: #2f3136;
+  font-size: 200%;
+  line-height: 60px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* line 103, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.red {
+  color: red;
+}
+
+/* line 107, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.blue {
+  color: blue;
+}
+
+/* line 111, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.green {
+  color: green;
+}
+
+/* line 115, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer a {
+  font-size: 120%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 122, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+  .navbar {
+    background: url("/big.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+  }
+
+  /* line 132, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+  ul.dropdown-menu > li a {
+    font-size: 220%;
+    margin-bottom: 5px;
+  }
+
+  /* line 138, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+  .footer a {
+    font-size: 220%;
+    margin-bottom: 5px;
+  }
+}
+/* line 146, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.img {
+  float: right;
+}
+
+/* line 150, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.address {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 155, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.main-info p {
+  text-indent: 35px;
+  font-size: 130%;
+  text-align: justify;
+}
+
+/* line 163, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.mobile-address {
+  margin: 0 20px;
+}
+
+/* line 167, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer {
+  height: 140px;
+  background: white;
+  margin-top: 40px;
+}
+
+/* line 174, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer {
+  padding-top: 0px;
+}
+
+/* line 179, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.addr {
+  font-size: 135%;
+}
+
+/* line 183, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.mobile-address a {
+  font-size: 115%;
+}
+
+/* line 188, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.upto {
+  color: red;
+  font-size: 300%;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* line 198, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.mobile-address {
+  margin: 0 20px;
+}
+
+/* line 202, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer {
+  height: 140px;
+  background: white;
+  margin-top: 40px;
+}
+
+/* line 209, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer {
+  padding-top: 0px;
+}
+
+/* line 214, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.addr {
+  font-size: 135%;
+}
+
+/* line 218, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.mobile-address a {
+  font-size: 115%;
+}
+
+/* line 222, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  margin-top: 80px;
+}
+
+/* line 236, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+/* line 243, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+/* line 249, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+/* line 255, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed h3 span {
+  color: #5383d3;
+}
+
+/* Footer links */
+/* line 261, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+/* line 267, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 274, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+/* line 283, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+/* line 287, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+/* line 300, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+/* line 305, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+/* line 312, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* line 319, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-center p a {
+  color: #5383d3;
+  text-decoration: none;
+}
+
+/* Footer Right */
+/* line 327, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+/* line 331, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* line 339, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* line 347, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+/* line 353, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+@media (max-width: 880px) {
+  /* line 374, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  /* line 380, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  /* line 387, /Users/andrey/projects/sellgiftcard/app/assets/stylesheets/application.css.scss */
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
